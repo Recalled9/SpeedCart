@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpeedCart - Grocery Delivery in Minutes</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="location-selector">
+                <span>Delivery in 10 minutes</span>
+                <span class="location">Knowledge Park II <i class="fas fa-chevron-down"></i></span>
+            </div>
+            <a href="index.html" class="logo">Speed<span>Cart</span></a>
+            <div class="search-bar">
+                <input type="text" placeholder="Search for groceries, vegetables, and more...">
+                <button aria-label="Search"><i class="fas fa-search"></i></button>
+            </div>
+            <div class="nav-links">
+                <a href="about.html">About Us</a>
+                <a href="add-product.html">Admin</a>
+                <a href="cart.html" class="cart-icon">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Banner Section -->
+        <section class="banner-section">
+            <div class="main-banner">
+                <div class="banner-content">
+                    <h2>HealthCare and Beauty</h2>
+                    <p>Shop your favorite health and beauty products <i class="fas fa-arrow-right"></i> now on SpeedCart</p>
+                    <a href="category.html?id=paan-corner" class="banner-btn">Shop now</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Categories Grid -->
+        <section class="categories-grid">
+            <div class="categories" id="categories-container">
+                <!-- Categories will be loaded dynamically from JavaScript -->
+            </div>
+        </section>
+
+        <!-- Product Sections -->
+        <section class="product-section" id="dairy-bread">
+            <div class="section-header">
+                <h2>Dairy, Bread & Eggs</h2>
+                <a href="category.html?id=dairy-breakfast" class="see-all">See all</a>
+            </div>
+            <div class="products-grid" id="dairy-products-container">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </section>
+
+        <!-- <section class="product-section" id="rolling-paper">
+            <div class="section-header">
+                <h2>Rolling paper & tobacco</h2>
+                <a href="category.html?id=tobacco" class="see-all">See all</a>
+            </div>
+            <div class="products-grid" id="tobacco-products-container">
+            </div>
+        </section> -->
+
+        <section class="product-section" id="snacks">
+            <div class="section-header">
+                <h2>Snacks & Munchies</h2>
+                <a href="category.html?id=snacks-beverages" class="see-all">See all</a>
+            </div>
+            <div class="products-grid" id="snacks-products-container">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </section>
+
+        <section class="product-section" id="hookah">
+            <div class="section-header">
+                <h2>Cleaner</h2>
+                <a href="category.html?id=hookah" class="see-all">See all</a>
+            </div>
+            <div class="products-grid" id="hookah-products-container">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </section>
+
+        <section class="product-section" id="mouth-fresheners">
+            <div class="section-header">
+                <h2>Instant Food</h2>
+                <a href="category.html?id=mouth-fresheners" class="see-all">See all</a>
+            </div>
+            <div class="products-grid" id="fresheners-products-container">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </section>
+
+        <section class="product-section" id="cold-drinks">
+            <div class="section-header">
+                <h2>Fruits</h2>
+                <a href="category.html?id=beverages" class="see-all">See all</a>
+            </div>
+            <div class="products-grid" id="beverages-products-container">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </section>
+
+        <section class="product-section" id="candies">
+            <div class="section-header">
+                <h2>Candies & Gums</h2>
+                <a href="category.html?id=candies" class="see-all">See all</a>
+            </div>
+            <div class="products-grid" id="candies-products-container">
+                <!-- Products will be loaded dynamically -->
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-links">
+                <div class="footer-section">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Categories</h3>
+                    <ul>
+                        <li><a href="#">Dairy & Breakfast</a></li>
+                        <li><a href="#">Snacks & Beverages</a></li>
+                        <li><a href="#">Fruits & Vegetables</a></li>
+                        <li><a href="#">Household Items</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Help</h3>
+                    <ul>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Terms of Use</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-apps">
+                <!-- <h3>Download App</h3>
+                <div class="app-buttons">
+                    <a href="#" class="app-button"><i class="fab fa-google-play"></i> Google Play</a>
+                    <a href="#" class="app-button"><i class="fab fa-apple"></i> App Store</a>
+                </div> -->
+                <div class="social-icons">
+                    <a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" title="Twitter"><i class="fab fa-twitter"></i></a>
+                    <a href="#" title="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="container copyright">
+            <p>&copy; 2025 SpeedCart. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="js/data.js"></script>
+    <script src="js/home.js"></script>
+</body>
+</html>
